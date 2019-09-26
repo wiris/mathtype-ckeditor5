@@ -23,6 +23,11 @@ export function downcast( editor ) {
                 }
             }
 
+            // Consume all the attributes of the math element so they don't get added to img
+            for ( const attributeKey of math.getAttributeKeys() ) {
+                conversionApi.consumable.consume( math, 'attribute:' + attributeKey );
+            }
+
             const htmlDataProcessor = new HtmlDataProcessor();
             const mathmlDP = new CustomMathmlDataProcessor();
             const mathString = mathmlDP
