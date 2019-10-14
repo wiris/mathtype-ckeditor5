@@ -1,6 +1,6 @@
 {
   "name": "@wiris/mathtype-ckeditor5",
-  "version": "@version@",
+  "version": "7.16.1",
   "description": "MathType Web for CKEditor5 editor",
   "keywords": [
     "ckeditor",
@@ -22,7 +22,7 @@
     "email": "support@wiris.com"
   },
   "author": "WIRIS Team (http://www.wiris.com)",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "files": [
     "/src",
     "icons",
@@ -31,6 +31,7 @@
   ],
   "main": "src/plugin.js",
   "dependencies": {
-    "@wiris/ckeditor5-mathml": "^1.0.0"
+    "@wiris/ckeditor5-mathml": "^1.0.0",
+    "@wiris/mathtype-integration-js-dev": "^7.17.0"
   }
 }
