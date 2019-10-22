@@ -1,6 +1,6 @@
 {
   "name": "@wiris/mathtype-ckeditor5",
-  "version": "7.16.1",
+  "version": "7.17.1",
   "description": "MathType Web for CKEditor5 editor",
   "keywords": [
     "ckeditor",
@@ -18,7 +18,12 @@
     "wiris"
   ],
   "homepage": "http://www.wiris.com/",
+  "repository": {
+    "type" : "git",
+    "url" : "hhttps://github.com/wiris/mathtype-ckeditor5.git"
+  },
   "bugs": {
+    "url": "https://github.com/wiris/mathtype-ckeditor5/issues",
     "email": "support@wiris.com"
   },
   "author": "WIRIS Team (http://www.wiris.com)",
