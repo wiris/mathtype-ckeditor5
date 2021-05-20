@@ -1,4 +1,4 @@
-MathType for CKEditor 5 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/wirismath)
+MathType for CKEditor 5
 ===
 
 
